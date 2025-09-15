@@ -1,0 +1,8 @@
+# Ignore training logs
+catboost_info/
+*.out*
+*.tsv
+*.json
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
