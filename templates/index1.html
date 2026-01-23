@@ -1273,9 +1273,14 @@
                                         (Risk Score: {{ (combined_risk_score*100)|round(2) }}%)
                                     </div>
                                     <div>
-                                        <p><b>ML Feature Contribution:</b></p>
+                                      <p><b>ML Feature Contribution:</b></p>
+                                      {% if ml_feature_plot %}
                                         <img src="data:image/png;base64,{{ ml_feature_plot }}" alt="ML Feature Contribution" class="img-fluid">
+                                      {% else %}
+                                        <p class="placeholder-text">Feature plot not available.</p>
+                                      {% endif %}
                                     </div>
+
                                 </div>
                             </div>
                         </div>
