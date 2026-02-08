@@ -1173,7 +1173,7 @@
                 <div class="feature-card">
                     <div class="feature-icon">🤖</div>
                     <h3>ML-Powered Analysis</h3>
-                    <p>Advanced machine learning algorithms analyze URL patterns, domain characteristics, and content features to identify phishing attempts.</p>
+                    <p>Advanced machine learning algorithms analyze URL patterns, sub-domain characteristics, and content features to identify phishing attempts.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">🧠</div>
@@ -1209,7 +1209,7 @@
         <div class="container">
             <div class="analyzer-container">
                 <div class="analyzer-form">
-                    <h2>PHISHING URL DETECTION</h2>
+                    <h2>Phishing URL Detection</h2>
                     <form action="/" id="urlAnalyzerForm" method="post">
                         <div class="form-group">
                             <input type="text" class="form-input" name="url" id="url" placeholder="" required />
@@ -1248,7 +1248,7 @@
                             </div>
                             <div class="verdict-item">
                                 <div>
-                                    <div class="verdict-label">Gemini LLM Verdict:</div>
+                                    <div class="verdict-label">Gemini Verdict:</div>
                                     <div class="confidence-score">
                                         <span class="
                                             {% if llm_verdict == 'legitimate' %} verdict-legit 
@@ -1262,7 +1262,7 @@
                             </div>
                             <div class="verdict-item">
                                 <div>
-                                    <div class="verdict-label">Final Risk Assessment:</div>
+                                    <!-- <div class="verdict-label">Final Risk Assessment:</div>
                                     <div class="confidence-score">
                                         <span class="
                                             {% if final_verdict == 'LEGITIMATE' %} verdict-legit 
@@ -1271,7 +1271,7 @@
                                             {{ final_verdict }}
                                         </span>
                                         (Risk Score: {{ (combined_risk_score*100)|round(2) }}%)
-                                    </div>
+                                    </div> -->
                                     <div>
                                       <p><b>ML Feature Contribution:</b></p>
                                       {% if ml_feature_plot %}
