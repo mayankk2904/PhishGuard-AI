@@ -17,5 +17,5 @@ The Internet has become an indispensable part of our life, however, it also has 
 - Gemma (LLM) + ML hybrid approach
 - Comparison of 7+ ML models
 - Confidence score prediction
-- HTML/JS scaraping
+- HTML/JS scraping
 
