@@ -1,11 +1,7 @@
 ---
 title: "PhishGuard AI"
-emoji: 🛡️
-colorFrom: blue
-colorTo: pink
 sdk: docker
 app_port: 7860
-pinned: false
 short_description: "Phishing Website URL Analyzer using ML + LLM"
 ---
 
