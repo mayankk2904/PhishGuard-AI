@@ -1,7 +1,5 @@
 ---
 title: "PhishGuard AI"
-sdk: docker
-app_port: 7860
 short_description: "Phishing Website URL Analyzer using ML + LLM"
 ---
 
